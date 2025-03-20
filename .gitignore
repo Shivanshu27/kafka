@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.yml
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Other
+.idea/
+
+# Node.js package lock file
+package-lock.json
