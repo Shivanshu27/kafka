@@ -53,32 +53,3 @@ Example commands to produce messages:
 > tony south
 > tony north
 ```
-
-## Pushing to GitHub
-To create a repository on GitHub and push your code there, follow these steps:
-
-1. **Create a new repository on GitHub**:
-   - Go to [GitHub](https://github.com) and log in.
-   - Click on the `+` icon in the top right corner and select `New repository`.
-   - Enter a repository name, description (optional), and choose visibility (public or private).
-   - Click `Create repository`.
-
-2. **Initialize Git in your project directory**:
-   Run the following commands in the terminal:
-   ```bash
-   cd /home/user/Downloads/old projects/1study/kafka
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
-
-3. **Add the remote repository and push your code**:
-   Replace `<USERNAME>` with your GitHub username and `<REPO_NAME>` with the name of your repository.
-   ```bash
-   git remote add origin https://github.com/<USERNAME>/<REPO_NAME>.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-4. **Verify the push**:
-   Go to your repository on GitHub and verify that your code has been pushed successfully.
