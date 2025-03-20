@@ -1,0 +1,15 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "Video Link: [Apache Kafka Crash Course | What is Kafka?](https://youtu.be/ZJJHm_bd9Zo) ## Prerequisite - Knowledge   - Node.JS Intermediate level   - Experience with designing distributed systems - Tools   - Node.js: [Download Node.JS](https://nodejs.org/en)   - Docker: [Download Docker](https://www.docker.com)   - VsCode: [Download VSCode](https://code.visualstudio.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
